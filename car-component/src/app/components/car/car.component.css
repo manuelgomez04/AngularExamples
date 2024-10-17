@@ -1,0 +1,26 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 36rem;
+}
+
+.card-body {
+    flex: 1;
+    text-align: left;
+}
+
+.card-img-right {
+    width: 60%;
+}
+
+.shadow-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
